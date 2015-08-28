@@ -12,4 +12,4 @@ class FoodSerializers(serializers.ModelSerializer):
 
     class Meta:
         model = Food
-        exclude = ['id', 'is_addon_must']
+        exclude = ['id', 'is_addon_must', 'restaurant']
